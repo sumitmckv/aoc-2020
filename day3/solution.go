@@ -12,13 +12,13 @@ func main() {
 }
 
 func puzzle1() {
-	data, _ := ioutil.ReadFile("day3/input.text")
+	data, _ := ioutil.ReadFile("day3/input.txt")
 	arr := strings.Split(string(data), "\n")
 	fmt.Println(noOfTrees(arr, 3, 1))
 }
 
 func puzzle2() {
-	data, _ := ioutil.ReadFile("day3/input.text")
+	data, _ := ioutil.ReadFile("day3/input.txt")
 	arr := strings.Split(string(data), "\n")
 	rightArr := [5]int{1, 3, 5, 7, 1}
 	down := 1

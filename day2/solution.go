@@ -13,7 +13,7 @@ func main() {
 }
 
 func puzzle1() {
-	data, _ := ioutil.ReadFile("day2/input.text")
+	data, _ := ioutil.ReadFile("day2/input.txt")
 	arr := strings.Split(string(data), "\n")
 	res := 0
 	for _, str := range arr {
@@ -37,7 +37,7 @@ func puzzle1() {
 }
 
 func puzzle2() {
-	data, _ := ioutil.ReadFile("day2/input.text")
+	data, _ := ioutil.ReadFile("day2/input.txt")
 	arr := strings.Split(string(data), "\n")
 	res := 0
 	for _, str := range arr {

@@ -13,7 +13,7 @@ func main() {
 }
 
 func puzzle1() {
-	data, err := ioutil.ReadFile("day1/input.text")
+	data, err := ioutil.ReadFile("day1/input.txt")
 	if err != nil {
 		fmt.Println("Error occured while reading file", err)
 		return
@@ -33,7 +33,7 @@ func puzzle1() {
 }
 
 func puzzle2() {
-	data, err := ioutil.ReadFile("day1/input.text")
+	data, err := ioutil.ReadFile("day1/input.txt")
 	if err != nil {
 		fmt.Println("Error occured while reading file", err)
 		return
